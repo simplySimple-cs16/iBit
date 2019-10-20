@@ -37,3 +37,11 @@ Given [1,2],[3,5],[6,7],[8,10],[12,16], insert and merge [4,9] would result in [
 This is because the new interval [4,9] overlaps with [3,5],[6,7],[8,10].
 Make sure the returned intervals are also sorted.
 link : https://www.interviewbit.com/problems/merge-intervals/
+
+5.cpp
+Given a collection of intervals, merge all overlapping intervals.
+For example:
+Given [1,3],[2,6],[8,10],[15,18],
+return [1,6],[8,10],[15,18].
+Make sure the returned intervals are sorted.
+link : https://www.interviewbit.com/problems/merge-overlapping-intervals/
