@@ -7,3 +7,22 @@ link : https://www.interviewbit.com/problems/noble-integer/
 2.cpp
 Given numRows, generate the first numRows of Pascal’s triangle.
 Hint : C = (C*(line-i))/i; line from 1 to n and i from 1 to line
+link : https://www.interviewbit.com/problems/pascal-triangle/
+
+3.cpp
+You are in an infinite 2D grid where you can move in any of the 8 directions :
+ (x,y) to 
+    (x+1, y), 
+    (x - 1, y), 
+    (x, y+1), 
+    (x, y-1), 
+    (x-1, y-1), 
+    (x+1,y+1), 
+    (x-1,y+1), 
+    (x+1,y-1) 
+You are given a sequence of points and the order in which you need to cover the points. 
+Give the minimum number of steps in which you can achieve it. You start from the first point.
+
+Input : [(0, 0), (1, 1), (1, 2)]
+Output : 2
+link : https://www.interviewbit.com/problems/min-steps-in-infinite-grid/
